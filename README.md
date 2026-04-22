@@ -43,14 +43,6 @@ Then enable the module in your NixOS configuration:
 nix profile install github:ethanholter/odrive-udev
 ```
 
-Or in a NixOS `environment.systemPackages`:
-
-```nix
-environment.systemPackages = [
-  inputs.odrive-udev.packages.${pkgs.stdenv.hostPlatform.system}.default
-];
-```
-
 ## Supported devices
 
 | Device | |

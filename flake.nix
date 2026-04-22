@@ -27,6 +27,7 @@
             meta = with pkgs.lib; {
               description = "udev rules for ODrive motor controllers";
               homepage = "https://odriverobotics.com";
+              license = licenses.mit;
               platforms = platforms.linux;
             };
           };
